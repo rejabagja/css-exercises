@@ -2,7 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
+/* .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
@@ -39,4 +39,41 @@ div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+} */
+
+/* solusi */
+.para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.para.small-para {
+  font-size: 14px;
+}
+
+.button {
+  font-size: 20px;
+}
+
+#confirm-button {
+  background-color: green;
+  font-weight: bold;
+  color: white;
+}
+
+#cancel-button {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+div.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.text.child {
+  font-size: 14px;
+  font-weight: 800;
 }
